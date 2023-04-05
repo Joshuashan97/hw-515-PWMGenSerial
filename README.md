@@ -1,6 +1,6 @@
 # hw-515-PWMGenSerial
-Serial Comms For Setting Frequency and DutyCycle on hw-515 PWM Generator Module
 
+Python script using Serial Comms For Setting Frequency and DutyCycle on hw-515 PWM Generator Module
 
 Run python script from terminal and provide three arguments:
 
