@@ -16,13 +16,15 @@ def connectTest(ser1_name):
     return ser1
 
 def setsignal(unit,var1,var2,device):
+
+    t = 0.2
     if(unit==1):
         device.write(str.encode("S1F{}T".format(var1)))
-        time.sleep(0.2)
+        time.sleep(t)
         device.write(str.encode("S1D{:03d}T".format(var2)))
     elif(unit==2):    
         device.write(str.encode("S2F{}T".format(var1)))
-        time.sleep(0.2)
+        time.sleep(t)
         device.write(str.encode("S2D{:03d}T".format(var2)))
     return
     
