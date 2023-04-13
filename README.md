@@ -1,5 +1,7 @@
 # hw-515-PWMGenSerial
 
+main branch for Linux and windows branch for Windows
+
 Python script using Serial Comms For Setting Frequency and DutyCycle on hw-515 PWM Generator Module
 
 Run python script from terminal and provide three arguments:
