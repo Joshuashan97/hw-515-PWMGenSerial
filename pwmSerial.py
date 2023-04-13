@@ -38,7 +38,7 @@ def main():
     print("PWM:%d"%(u))
     print("Frequency:%.1f"%(f1))
     print("DutyCycle:%d"%(d1))
-    serDevice = connectTest('COM32')
+    serDevice = connectTest('/dev/ttyS0')
     setsignal(u,f1,d1,serDevice)
 
 if __name__ == "__main__":
